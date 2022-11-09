@@ -14,10 +14,8 @@ btn.forEach((el) => {
     e.currentTarget.classList.add("active");
 
     window.sessionStorage.setItem("rating", e.currentTarget.value);
+	  out.textContent = window.sessionStorage.getItem("rating");
   });
-});
-document.addEventListener("click", function () {
-  out.textContent = window.sessionStorage.getItem("rating");
 });
 
 document.addEventListener("click", function () {
