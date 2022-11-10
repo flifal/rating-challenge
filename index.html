@@ -16,48 +16,49 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <main class="container rating">
-      <div class="icon">
-        <img src="images/icon-star.svg" alt="star icon" />
-      </div>
-      <div class=""><h1>How did we do?</h1></div>
-      <div class="par">
-        <p>
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-      </div>
-      <div class="numbers">
-        <button value="1">1</button>
-        <button value="2">2</button>
-        <button value="3">3</button>
-        <button value="4">4</button>
-        <button value="5">5</button>
-      </div>
-      <div>
-        <button id="submit" class="submit" type="submit">SUBMIT</button>
-      </div>
+    <main>
+      <article class="container rating">
+        <div class="icon">
+          <img src="images/icon-star.svg" alt="star icon" />
+        </div>
+        <div class=""><h1>How did we do?</h1></div>
+        <div class="par">
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="numbers">
+          <button value="1">1</button>
+          <button value="2">2</button>
+          <button value="3">3</button>
+          <button value="4">4</button>
+          <button value="5">5</button>
+        </div>
+        <div>
+          <button id="submit" class="submit" type="submit">SUBMIT</button>
+        </div>
+      </article>
+      <!-- Rating state end -->
+      <!-- Thank you state start -->
+      <article class="container thanks">
+        <div class="img">
+          <img src="images/illustration-thank-you.svg" alt="" />
+        </div>
+        <div class="output">
+          You selected
+          <span id="output"></span>
+          out of 5
+        </div>
+        <h1>Thank you!</h1>
+        <div class="par">
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </article>
     </main>
-    <!-- Rating state end -->
-    <!-- Thank you state start -->
-    <div class="container thanks">
-      <div class="img">
-        <img src="images/illustration-thank-you.svg" alt="" />
-      </div>
-      <div class="output">
-        You selected
-        <span id="output"></span>
-        out of 5
-      </div>
-      <h1>Thank you!</h1>
-      <div class="par">
-        <p>
-          We appreciate you taking the time to give a rating. If you ever need
-          more support, don’t hesitate to get in touch!
-        </p>
-      </div>
-    </div>
-
     <!-- Thank you state end -->
 
     <script src="main.js"></script>
